@@ -52,7 +52,7 @@ for (let producto of arrayProductos) {
                           <p> Precio: ${producto.precio}</p>
                           <p> Cantidad: ${producto.cantidad}</p>
                           <p> Detalle: ${producto.detalle}</p>`;
-  document.body.appenChild(contenedor);
+  document.body.appendChild(contenedor);
 }
 
 //POCO STOCK - MENOS DE 4 PRODUCTOS//
@@ -67,7 +67,7 @@ for (let producto of pocoStock) {
   contenedor.innerHTML = `<h3> Nombre: ${producto.nombre}</h3>
                           <p> Cantidad: ${producto.cantidad}</p>
                           <p> Detalle: ${producto.detalle}</p>`;
-  document.body.appenChild(contenedor);
+  document.body.appendChild(contenedor);
 }
 
 //PRODUCTO SIN STOCK
